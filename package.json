@@ -1,0 +1,17 @@
+{
+  "name": "opd-token-allocation",
+  "version": "1.0.0",
+  "description": "Backend token allocation system for hospital OPD",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "simulate": "node simulation.js",
+    "test": "node test-api.js"
+  },
+  "keywords": ["opd", "hospital", "token", "allocation"],
+  "author": "Sonal Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
